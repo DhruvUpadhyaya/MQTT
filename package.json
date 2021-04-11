@@ -1,5 +1,5 @@
 {
-  "name": "mqtt",
+  "name": "mqtt-test",
   "version": "1.0.0",
   "description": "The Message Queuing Telemetry Transport is a lightweight, publish-subscribe network protocol that transports messages between devices. The protocol usually runs over TCP/IP.",
   "main": "broker.js",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/DhruvUpadhyaya/MQTT#readme",
   "dependencies": {
-    "mosca": "^2.8.3"
+    "mosca": "^2.8.3",
+    "mqtt": "^4.2.6"
   }
 }
