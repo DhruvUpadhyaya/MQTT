@@ -1,0 +1,25 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "description": "The Message Queuing Telemetry Transport is a lightweight, publish-subscribe network protocol that transports messages between devices. The protocol usually runs over TCP/IP.",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhruvUpadhyaya/MQTT.git"
+  },
+  "keywords": [
+    "MQTT"
+  ],
+  "author": "Dhruv Upadhyaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhruvUpadhyaya/MQTT/issues"
+  },
+  "homepage": "https://github.com/DhruvUpadhyaya/MQTT#readme",
+  "dependencies": {
+    "mosca": "^2.8.3"
+  }
+}
